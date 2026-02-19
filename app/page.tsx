@@ -11,6 +11,7 @@ export default function Home() {
           <a href="#scaling" className="hover:text-teal-accent">Scaling</a>
           <a href="#jd" className="hover:text-teal-accent">The JD</a>
           <a href="#reading" className="hover:text-teal-accent">Reading</a>
+          <a href="#hire" className="hover:text-teal-accent">Hire</a>
         </div>
       </nav>
 
@@ -206,6 +207,74 @@ export default function Home() {
             The Post-Product Playbook
           </a>
         </div>
+      </section>
+
+      {/* Hire an APE */}
+      <section id="hire" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Hire an APE</h2>
+        <p className="text-gray-700 leading-relaxed mb-8">
+          If you&apos;re a small team with funding, real users, and problems nobody&apos;s
+          building solutions for, the first Applied Product Engineer is available for hire.
+        </p>
+
+        <h3 className="font-serif text-xl font-semibold mb-4">What I&apos;ve shipped</h3>
+        <div className="space-y-6 mb-8">
+          <div>
+            <a
+              href="https://ukhomeenergyguide.co.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-accent hover:underline font-semibold"
+            >
+              ukhomeenergyguide.co.uk
+            </a>
+            <p className="text-gray-700 leading-relaxed mt-1">
+              Combines EPC register, Land Registry, PVGIS solar data, fuel poverty stats,
+              and BUS grant data into a free property energy report. No sign-up, no data
+              harvesting. Affiliate model. Built in partnership by directing AI agents.
+            </p>
+          </div>
+          <div>
+            <a
+              href="https://motdata.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-accent hover:underline font-semibold"
+            >
+              motdata.uk
+            </a>
+            <p className="text-gray-700 leading-relaxed mt-1">
+              57 million MOT tests analysed across 5,125 vehicle models. Pass rates, failure
+              trends, reg checks. All DVSA open data. Agent-built.
+            </p>
+          </div>
+          <div>
+            <p className="font-semibold text-gray-900">Warehouse operations</p>
+            <p className="text-gray-700 leading-relaxed mt-1">
+              Reverse-engineered a device management platform and built an operational
+              worksurface for warehouse operators. Intake, deployment, monitoring, returns,
+              retirement across multiple hardware vendors, SIM providers, and a cloud alarm
+              platform. No additional hires needed to scale.
+            </p>
+          </div>
+        </div>
+
+        <p className="text-gray-700 leading-relaxed mb-8">
+          Eight years as a product manager deploying digital telecare across 50+ housing
+          associations. Five years running ISO 27001/9001 audits. I built a data warehouse
+          (DuckDB, Kimball), defined engagement metrics that drive customer success
+          interventions, and I spend time on site with enterprise clients. The trifecta
+          isn&apos;t theory for me. It&apos;s how I work.
+        </p>
+
+        <p className="text-gray-700">
+          <a
+            href="mailto:will@willpalmer.co.uk"
+            className="text-teal-accent hover:underline"
+          >
+            will@willpalmer.co.uk
+          </a>
+        </p>
       </section>
 
       {/* Footer */}
