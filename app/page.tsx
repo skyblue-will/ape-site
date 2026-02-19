@@ -1,0 +1,225 @@
+export default function Home() {
+  return (
+    <main className="max-w-2xl mx-auto px-6 py-8">
+      {/* Nav */}
+      <nav className="sticky top-0 bg-[#fafaf8]/95 backdrop-blur-sm z-50 py-4 mb-12 border-b border-gray-200">
+        <div className="flex flex-wrap gap-x-6 gap-y-1 text-sm text-gray-500">
+          <a href="#problem" className="hover:text-teal-accent">The Problem</a>
+          <a href="#trifecta" className="hover:text-teal-accent">The Trifecta</a>
+          <a href="#what" className="hover:text-teal-accent">What an APE Does</a>
+          <a href="#teams" className="hover:text-teal-accent">Small Teams</a>
+          <a href="#scaling" className="hover:text-teal-accent">Scaling</a>
+          <a href="#jd" className="hover:text-teal-accent">The JD</a>
+          <a href="#reading" className="hover:text-teal-accent">Reading</a>
+        </div>
+      </nav>
+
+      {/* Hero */}
+      <section className="mb-24">
+        <h1 className="font-serif text-4xl sm:text-5xl font-bold leading-tight mb-6">
+          Applied Product<br />Engineer
+        </h1>
+        <p className="text-xl text-gray-600 mb-6">
+          Product. Engineering. Compliance. One seat.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          A new role for a new era. The Applied Product Engineer merges product thinking,
+          software delivery, and security posture into a single function. They build by
+          directing AI agents. They sit with users. They ship.
+        </p>
+      </section>
+
+      {/* The Problem */}
+      <section id="problem" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">The Problem</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Most organisations split product, engineering, and security into separate teams.
+          Each team has its own priorities, its own backlog, its own language. Work moves
+          between them through handoffs. Handoffs create drag.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          A product manager writes a spec. An engineer interprets it. Something gets lost.
+          The build takes longer than expected. When it finally ships, a security review
+          happens after the fact. Findings create rework. The cycle repeats.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Three roles. Three backlogs. One slow outcome.
+        </p>
+        <blockquote className="border-l-2 border-teal-accent pl-4 my-8 text-gray-600 italic">
+          &ldquo;Restrictive IT policies have created a generation of knowledge workers who
+          will never fully catch up.&rdquo;
+          <span className="block mt-2 text-sm not-italic text-gray-400">Kevin Roose</span>
+        </blockquote>
+      </section>
+
+      {/* The Trifecta */}
+      <section id="trifecta" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">The Trifecta</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          The APE sits with users and understands their problems firsthand. They build
+          solutions by directing AI agents. They own security posture from the start.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Security works in two layers. The APE builds it in: authentication, authorisation,
+          data handling, sensible defaults. External specialists test what gets built, working
+          in a tight agile loop rather than a gate at the end.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          This changes the economics. You no longer need three salaries to cover one outcome.
+          The budget you free up goes to real security: external pen testing, specialist audits,
+          continuous monitoring. Better outcomes for less.
+        </p>
+        <blockquote className="border-l-2 border-teal-accent pl-4 my-8 text-gray-600 italic">
+          &ldquo;The era of humans writing code is over. That&apos;s not to say SWEs don&apos;t
+          have work to do, but writing syntax directly is not it.&rdquo;
+          <span className="block mt-2 text-sm not-italic text-gray-400">Ryan Dahl, creator of Node.js</span>
+        </blockquote>
+      </section>
+
+      {/* What an APE Does */}
+      <section id="what" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">What an APE Does</h2>
+        <ul className="space-y-4 text-gray-700">
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">01</span>
+            <span><strong>Sits with users.</strong> Not in a research lab. In the room, at the desk, watching the work happen. Problems are discovered, not reported.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">02</span>
+            <span><strong>Builds with AI agents.</strong> The APE directs coding agents, review agents, deployment pipelines. They think in systems, not syntax.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">03</span>
+            <span><strong>Owns the full lifecycle.</strong> From discovery through build through production. No handoff to another team. One person, one outcome.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">04</span>
+            <span><strong>Builds security in.</strong> Auth, data handling, access control. These are not afterthoughts. They are part of the build from day one.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">05</span>
+            <span><strong>Works with external specialists.</strong> Pen testers, auditors, compliance consultants. They test the output in short cycles. Not a gate. A loop.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">06</span>
+            <span><strong>Automates workflows.</strong> Repetitive processes become automated. Internal tools get built on the spot. Friction is the enemy.</span>
+          </li>
+        </ul>
+      </section>
+
+      {/* Why Small Teams */}
+      <section id="teams" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Why Small Teams</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Large organisations cannot merge these roles. Job descriptions are rigid. Budget
+          lines are fixed. Compliance frameworks assume separation of duties. The structure
+          resists change.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Small teams can. A team of two or three APEs can outship a department of twenty.
+          They move faster because there are no handoffs. They build better because they
+          talk to users directly. They spend less because AI agents do the heavy lifting.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          The future belongs to small teams who build this way. Not because small is
+          fashionable, but because the tooling finally makes it possible.
+        </p>
+      </section>
+
+      {/* When There's More Than One */}
+      <section id="scaling" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">When There&apos;s More Than One</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          One APE is simple. Two or more need planning permission.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Lightweight standups. Shared standards for code, security, and deployment. A common
+          stack so agents can move between projects. External specialists who test across all
+          output, not per person.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          The coordination cost stays low because each APE owns their domain end to end.
+          You are not splitting tasks across people. You are splitting domains.
+        </p>
+      </section>
+
+      {/* The JD */}
+      <section id="jd" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">The JD</h2>
+        <p className="text-gray-700 leading-relaxed mb-6">
+          If you were hiring an APE, here is what the job description looks like.
+        </p>
+
+        <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 space-y-8">
+          <div>
+            <h3 className="font-serif text-xl font-semibold mb-3">Applied Product Engineer</h3>
+            <p className="text-gray-600 text-sm leading-relaxed">
+              You will sit with users, understand their problems, and build solutions using
+              AI agents. You will own what you build from discovery through production. You
+              will bake security in from the start and work with external specialists to
+              validate it.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-teal-accent mb-3">What we care about</h3>
+            <ul className="space-y-2 text-gray-700 text-sm">
+              <li>Show us something live. A product, a tool, a side project. Something real that people use.</li>
+              <li>Talk to customers. Show us you can sit with a user and find the real problem.</li>
+              <li>Ship this week. Not next quarter. This week. Show us your pace.</li>
+              <li>Think about security before someone asks you to.</li>
+              <li>Direct AI agents effectively. Know when to trust them and when to check.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-gray-400 mb-3">What we don&apos;t care about</h3>
+            <ul className="space-y-2 text-gray-500 text-sm">
+              <li>A computer science degree.</li>
+              <li>Your LeetCode score.</li>
+              <li>A green GitHub contribution graph.</li>
+              <li>Years of experience in a specific language.</li>
+              <li>Whether you can whiteboard a binary tree.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Reading */}
+      <section id="reading" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Reading</h2>
+        <div className="space-y-4">
+          <a
+            href="https://willpalmer.co.uk/unlocking-capability"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-teal-accent hover:underline"
+          >
+            Unlocking Capability
+          </a>
+          <a
+            href="https://willpalmer.co.uk/post-product-playbook"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-teal-accent hover:underline"
+          >
+            The Post-Product Playbook
+          </a>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="border-t border-gray-200 pt-8 pb-12 text-sm text-gray-400">
+        Written by{' '}
+        <a
+          href="https://willpalmer.co.uk"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-teal-accent hover:underline"
+        >
+          Will Palmer
+        </a>
+      </footer>
+    </main>
+  )
+}
