@@ -17,9 +17,12 @@ export default function Home() {
 
       {/* Hero */}
       <section className="mb-24">
-        <h1 className="font-serif text-4xl sm:text-5xl font-bold leading-tight mb-6">
+        <h1 className="font-serif text-4xl sm:text-5xl font-bold leading-tight mb-3">
           Applied Product<br />Engineer
         </h1>
+        <p className="font-sans text-lg sm:text-xl text-gray-400 tracking-wide mb-6">
+          How software should be built in 2026 and beyond
+        </p>
         <p className="text-xl text-gray-600 mb-6">
           Product. Engineering. Compliance. One seat.
         </p>
