@@ -20,7 +20,7 @@ export default function Home() {
           Applied Product<br />Engineer
         </h1>
         <p className="font-sans text-lg sm:text-xl text-gray-400 tracking-wide mb-6">
-          How software should be built in 2026 and beyond
+          How value will be created in 2026 and beyond
         </p>
         <p className="text-xl text-gray-600 mb-6">
           Product. Engineering. Compliance. One seat.
