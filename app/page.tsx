@@ -11,6 +11,7 @@ export default function Home() {
           <a href="#teams" className="hover:text-teal-accent">Small Teams</a>
           <a href="#scaling" className="hover:text-teal-accent">Scaling</a>
           <a href="#model" className="hover:text-teal-accent">The Model</a>
+          <a href="#survive" className="hover:text-teal-accent">Survival</a>
           <a href="#jd" className="hover:text-teal-accent">The JD</a>
           <a href="#reading" className="hover:text-teal-accent">Reading</a>
           <a href="#hire" className="hover:text-teal-accent">Hire</a>
@@ -253,6 +254,64 @@ export default function Home() {
         <p className="text-gray-700 leading-relaxed">
           No tickets. No sprint planning. No change advisory boards. Just humans who are good
           at their thing, talking to each other.
+        </p>
+      </section>
+
+      {/* Three Roles That Survive */}
+      <section id="survive" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Three Roles That Survive</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Most job titles are descriptions of busywork that AI will absorb. These three
+          survive because they depend on things AI cannot do. Judgment. Trust. Relationships.
+          Knowing what matters to a real person with a real budget.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-8">
+          And none of them are full time for one company.
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The Commercial Mind</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Fractional across multiple ventures. Spots overlap between clients. Sees the
+              market across several bets, not just one. &ldquo;Client A needs energy data.
+              Client B needs property data. There&apos;s a product in the overlap.&rdquo;
+              This is pattern recognition across markets. No model can do it. It requires
+              years of lived experience, real relationships, and being in the room.
+            </p>
+          </div>
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The APE</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Fractional across multiple products. Builds a data pipeline for one client.
+              Realises the same pattern works for another. Deploys it in an afternoon instead
+              of a week. Every project makes the next one faster. The context library grows.
+              Lessons from one product harden another.
+            </p>
+          </div>
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The Security Specialist</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Already fractional by definition. Tests twenty products. Finds the same
+              vulnerability in five of them. Writes one fix pattern, shares it across all
+              five APEs. The whole network gets more secure every time one product gets tested.
+            </p>
+          </div>
+        </div>
+
+        <p className="text-gray-700 leading-relaxed mb-4">
+          This is a network, not a company. Each node is fractional. Each connection creates
+          compound value. The more nodes, the more returns.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          One APE and one commercial mind is a company. Add a fractional security specialist
+          and it&apos;s a real one. Add a second APE and you&apos;re scaling. Add a third
+          commercial mind working different markets and you&apos;re a portfolio.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          No office. No HR department. No org chart. Just people doing what they&apos;re good
+          at across multiple bets, getting better every time. This is what &ldquo;millions of
+          platforms with one user each&rdquo; looks like in practice.
         </p>
       </section>
 
