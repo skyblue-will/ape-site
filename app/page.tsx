@@ -5,6 +5,7 @@ export default function Home() {
       <nav className="sticky top-0 bg-[#fafaf8]/95 backdrop-blur-sm z-50 py-4 mb-12 border-b border-gray-200">
         <div className="flex flex-wrap gap-x-6 gap-y-1 text-sm text-gray-500">
           <a href="#problem" className="hover:text-teal-accent">The Problem</a>
+          <a href="#history" className="hover:text-teal-accent">History</a>
           <a href="#trifecta" className="hover:text-teal-accent">The Trifecta</a>
           <a href="#what" className="hover:text-teal-accent">What an APE Does</a>
           <a href="#teams" className="hover:text-teal-accent">Small Teams</a>
@@ -54,6 +55,54 @@ export default function Home() {
           will never fully catch up.&rdquo;
           <span className="block mt-2 text-sm not-italic text-gray-400">Kevin Roose</span>
         </blockquote>
+      </section>
+
+      {/* We've Been Here Before */}
+      <section id="history" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">We&apos;ve Been Here Before</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          In 2008, development teams threw code over the wall to operations. Ops complained
+          it didn&apos;t work. Deploys took weeks. Everyone blamed each other.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          DevOps dissolved that wall. The people who built it also ran it. One team, one
+          responsibility. It created an entire profession, a culture, a toolchain, and a
+          salary bracket that didn&apos;t exist five years earlier.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          But DevOps only dissolved one wall. It left the others standing. Product still
+          specs. Engineering still builds. Security still reviews after the fact. Three
+          teams, three handoffs, three points of friction.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          AI agents change what&apos;s possible. When one person can direct agents to build
+          production software without writing syntax, the argument for keeping product and
+          engineering in separate seats disappears. And when the time saved on handoffs gets
+          redirected to security, the compliance silo dissolves too.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-8">
+          DevOps merged dev and ops. The Applied Product Engineer merges product, engineering,
+          and compliance. Same pattern. Next iteration.
+        </p>
+
+        <ul className="space-y-4 text-gray-700">
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">2008</span>
+            <span>&ldquo;DevOps&rdquo; coined. Dev and Ops merge.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">2010s</span>
+            <span>SRE emerges. Platform Engineering follows.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">2024</span>
+            <span>AI coding agents reach production quality.</span>
+          </li>
+          <li className="flex gap-3">
+            <span className="text-teal-accent font-semibold shrink-0">2026</span>
+            <span>The APE. Product, engineering, and compliance merge.</span>
+          </li>
+        </ul>
       </section>
 
       {/* The Trifecta */}
