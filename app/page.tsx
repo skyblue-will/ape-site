@@ -80,7 +80,7 @@ export default function Home() {
           </li>
           <li className="flex gap-3">
             <span className="text-teal-accent font-semibold shrink-0">2026</span>
-            <span>The APE. Product, engineering, and compliance merge.</span>
+            <span>This proposal. What if product, engineering, and compliance merged too?</span>
           </li>
         </ul>
 
