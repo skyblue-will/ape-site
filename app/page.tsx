@@ -30,9 +30,10 @@ export default function Home() {
           Product. Engineering. Compliance. One seat.
         </p>
         <p className="text-gray-700 leading-relaxed">
-          A new role for a new era. The Applied Product Engineer merges product thinking,
-          software delivery, and security posture into a single function. They build by
-          directing AI agents. They sit with users. They ship.
+          The job title the market hasn&apos;t named yet. One person who sits with users,
+          builds the solution by directing AI agents, and owns the security of what they
+          ship. Not a product manager. Not a software engineer. Not a security analyst.
+          All three.
         </p>
       </section>
 
@@ -179,6 +180,12 @@ export default function Home() {
           The future belongs to small teams who build this way. Not because small is
           fashionable, but because the tooling finally makes it possible.
         </p>
+        <p className="text-gray-700 leading-relaxed mt-4">
+          This is also why advertised roles rarely fit. Job boards list product managers OR
+          engineers OR security analysts. The APE is all three. Most organisations cannot
+          hire this person because their org chart has no slot for them. Small teams do not
+          have this problem. They hire the person, not the job title.
+        </p>
       </section>
 
       {/* When There's More Than One */}
@@ -213,26 +220,22 @@ export default function Home() {
           <div className="border-l-2 border-teal-accent pl-4">
             <h3 className="font-semibold text-gray-900 mb-1">The Commercial Mind</h3>
             <p className="text-gray-700 leading-relaxed">
-              Sales, marketing, client relations, and market sensing in one seat. Finds customers,
-              tells the story, keeps them happy, knows what&apos;s worth building next. This is the
-              founder or the business partner. One person, not four departments.
+              Sales, marketing, client relations. Knows what&apos;s worth building because they
+              know what people will pay for. The human who turns market intuition into direction.
             </p>
           </div>
           <div className="border-l-2 border-teal-accent pl-4">
             <h3 className="font-semibold text-gray-900 mb-1">The APE</h3>
             <p className="text-gray-700 leading-relaxed">
-              Product, engineering, and compliance in one seat. Sits with users, directs AI agents
-              to build the solution, owns the security posture from day one. Discovery, build,
-              deploy, monitor, iterate. The execution engine.
+              Product, engineering, compliance. Takes &ldquo;this is worth building&rdquo; and
+              makes it exist. The execution engine.
             </p>
           </div>
           <div className="border-l-2 border-teal-accent pl-4">
             <h3 className="font-semibold text-gray-900 mb-1">The Security Specialist</h3>
             <p className="text-gray-700 leading-relaxed">
-              Fractional. Not on payroll. Works across five, ten, twenty small teams. Pen testing
-              for one client Tuesday, vulnerability scanning for another Wednesday. Their breadth
-              is their value. They see patterns across dozens of products that an in-house hire
-              never would.
+              Fractional. Tests what the APE builds across multiple teams. The external check
+              that keeps everyone honest.
             </p>
           </div>
         </div>
@@ -369,6 +372,9 @@ export default function Home() {
           >
             Unlocking Capability
           </a>
+          <p className="text-gray-600 text-sm leading-relaxed mb-2">
+            Why the capability is democratised but the governance isn&apos;t. The planning permission metaphor for AI-assisted work.
+          </p>
           <a
             href="https://willpalmer.co.uk/post-product-playbook"
             target="_blank"
@@ -377,6 +383,9 @@ export default function Home() {
           >
             The Post-Product Playbook
           </a>
+          <p className="text-gray-600 text-sm leading-relaxed mb-2">
+            The sceptic&apos;s pitch. What happens when AI builds and humans secure. Written for the person who thinks this can&apos;t work.
+          </p>
         </div>
       </section>
 
