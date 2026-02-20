@@ -7,8 +7,7 @@ export default function Home() {
           <a href="#problem" className="hover:text-teal-accent">The Problem</a>
           <a href="#history" className="hover:text-teal-accent">History</a>
           <a href="#solution" className="hover:text-teal-accent">The Solution</a>
-          <a href="#numbers" className="hover:text-teal-accent">The Numbers</a>
-          <a href="#hire" className="hover:text-teal-accent">Hire</a>
+                    <a href="#hire" className="hover:text-teal-accent">Hire</a>
         </div>
       </nav>
 
@@ -128,20 +127,6 @@ export default function Home() {
         </p>
         <p className="text-gray-700 leading-relaxed">
           Large organisations cannot merge these roles. Their org charts won&apos;t allow it. Small teams can. They hire the person, not the job title.
-        </p>
-      </section>
-
-      {/* The Numbers */}
-      <section id="numbers" className="mb-24 scroll-mt-20">
-        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">The Numbers</h2>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          A traditional product team: product manager (&pound;65k), three engineers (&pound;75k each), QA (&pound;45k), security analyst (&pound;55k), scrum master (&pound;50k). That&apos;s &pound;440k in salaries before office space, tools, and management overhead.
-        </p>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          An APE team: one commercial mind (&pound;70k), one APE (&pound;80k), one fractional security specialist (&pound;20k retainer). That&apos;s &pound;170k. Less than half the cost. Faster shipping. Better security, because the freed budget goes to real pen testing instead of compliance theatre.
-        </p>
-        <p className="text-gray-700 leading-relaxed">
-          The maths only works because AI agents do the implementation work that used to require three engineers. The humans do what AI cannot: judgment, trust, relationships, and knowing what to build.
         </p>
       </section>
 
