@@ -79,8 +79,7 @@ export default function Home() {
             <span>AI coding agents reach production quality.</span>
           </li>
           <li className="flex gap-3">
-            <span className="text-teal-accent font-semibold shrink-0">2026</span>
-            <span>This proposal. What if product, engineering, and compliance merged too?</span>
+
           </li>
         </ul>
 
