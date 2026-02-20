@@ -98,7 +98,7 @@ export default function Home() {
             <span>SRE emerges. Platform Engineering follows.</span>
           </li>
           <li className="flex gap-3">
-            <span className="text-teal-accent font-semibold shrink-0">2024</span>
+            <span className="text-teal-accent font-semibold shrink-0">2025</span>
             <span>AI coding agents reach production quality.</span>
           </li>
           <li className="flex gap-3">
