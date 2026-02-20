@@ -212,29 +212,37 @@ export default function Home() {
           <div className="border-l-2 border-teal-accent pl-4">
             <h3 className="font-semibold text-gray-900 mb-1">The Commercial Mind</h3>
             <p className="text-gray-700 leading-relaxed">
-              Knows what creates economic value. Sits with customers, reads markets, understands
-              what real people with real budgets will pay for. This is human pattern recognition.
-              Lived experience. No agent can sit in a pub and hear someone say &ldquo;every
-              homeowner in England needs to know this and nobody is telling them.&rdquo;
+              Sales, marketing, client relations, and market sensing in one seat. Finds customers,
+              tells the story, keeps them happy, knows what&apos;s worth building next. This is the
+              founder or the business partner. One person, not four departments.
             </p>
           </div>
           <div className="border-l-2 border-teal-accent pl-4">
             <h3 className="font-semibold text-gray-900 mb-1">The APE</h3>
             <p className="text-gray-700 leading-relaxed">
-              Takes &ldquo;this is worth building&rdquo; and makes it exist. Directs AI agents
-              to build it, secures it from the start, ships it, monitors it, iterates. The
-              execution engine.
+              Product, engineering, and compliance in one seat. Sits with users, directs AI agents
+              to build the solution, owns the security posture from day one. Discovery, build,
+              deploy, monitor, iterate. The execution engine.
             </p>
           </div>
           <div className="border-l-2 border-teal-accent pl-4">
             <h3 className="font-semibold text-gray-900 mb-1">The Security Specialist</h3>
             <p className="text-gray-700 leading-relaxed">
-              Stress-tests what the APE builds. Pen testing, vulnerability scanning, ethical
-              hacking. The external check that keeps the APE honest. Works in an agile loop,
-              not a quarterly audit.
+              Fractional. Not on payroll. Works across five, ten, twenty small teams. Pen testing
+              for one client Tuesday, vulnerability scanning for another Wednesday. Their breadth
+              is their value. They see patterns across dozens of products that an in-house hire
+              never would.
             </p>
           </div>
         </div>
+
+        <p className="text-gray-700 leading-relaxed mb-8">
+          A fully functioning product team: one commercial mind, one APE, one fractional security
+          specialist. Two people on payroll, one on retainer. Shipping real products to real
+          customers with real security. Compare that to the traditional setup: product manager,
+          three engineers, QA, scrum master, security analyst, DevOps engineer, customer success
+          manager. Nine people doing what three can do now.
+        </p>
 
         <p className="text-gray-700 leading-relaxed mb-4">
           This is why planning permission works. It&apos;s not a process. It&apos;s trust
