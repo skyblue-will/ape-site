@@ -31,6 +31,10 @@ export default function Home() {
           ship. Not a product manager. Not a software engineer. Not a security analyst.
           All three.
         </p>
+        <p className="text-gray-500 text-sm leading-relaxed mt-6">
+          This is an early attempt to map what effective AI-first teams look like. It&apos;s
+          built from experience, not theory, and it&apos;s meant to be built on, not followed.
+        </p>
       </section>
 
       {/* The Problem */}
