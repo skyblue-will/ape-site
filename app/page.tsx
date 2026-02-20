@@ -10,6 +10,7 @@ export default function Home() {
           <a href="#what" className="hover:text-teal-accent">What an APE Does</a>
           <a href="#teams" className="hover:text-teal-accent">Small Teams</a>
           <a href="#scaling" className="hover:text-teal-accent">Scaling</a>
+          <a href="#model" className="hover:text-teal-accent">The Model</a>
           <a href="#jd" className="hover:text-teal-accent">The JD</a>
           <a href="#reading" className="hover:text-teal-accent">Reading</a>
           <a href="#hire" className="hover:text-teal-accent">Hire</a>
@@ -193,6 +194,57 @@ export default function Home() {
         <p className="text-gray-700 leading-relaxed">
           The coordination cost stays low because each APE owns their domain end to end.
           You are not splitting tasks across people. You are splitting domains.
+        </p>
+      </section>
+
+      {/* Three Humans, Not Three Departments */}
+      <section id="model" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Three Humans, Not Three Departments</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          AI doesn&apos;t replace anyone here. It removes the busywork so humans can do the
+          bits only humans can do. Judgment. Trust. Knowing what matters.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-8">
+          The model has three roles. Not three departments. Three people who trust each other.
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The Commercial Mind</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Knows what creates economic value. Sits with customers, reads markets, understands
+              what real people with real budgets will pay for. This is human pattern recognition.
+              Lived experience. No agent can sit in a pub and hear someone say &ldquo;every
+              homeowner in England needs to know this and nobody is telling them.&rdquo;
+            </p>
+          </div>
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The APE</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Takes &ldquo;this is worth building&rdquo; and makes it exist. Directs AI agents
+              to build it, secures it from the start, ships it, monitors it, iterates. The
+              execution engine.
+            </p>
+          </div>
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The Security Specialist</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Stress-tests what the APE builds. Pen testing, vulnerability scanning, ethical
+              hacking. The external check that keeps the APE honest. Works in an agile loop,
+              not a quarterly audit.
+            </p>
+          </div>
+        </div>
+
+        <p className="text-gray-700 leading-relaxed mb-4">
+          This is why planning permission works. It&apos;s not a process. It&apos;s trust
+          between humans. The commercial mind trusts the APE to build it right. The APE trusts
+          the security specialist to find the holes. The security specialist trusts the APE to
+          fix them fast.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          No tickets. No sprint planning. No change advisory boards. Just humans who are good
+          at their thing, talking to each other.
         </p>
       </section>
 
