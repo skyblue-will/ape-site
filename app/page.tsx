@@ -215,6 +215,11 @@ export default function Home() {
         <p className="text-gray-700 leading-relaxed mb-8">
           The model has three roles. Not three departments. Three people who trust each other.
         </p>
+        <p className="text-gray-700 leading-relaxed mb-8">
+          These are functions, not job titles. The lines blur. One person might be a commercial
+          mind and half an APE. An APE with deep compliance experience might need fewer specialist
+          hours. This is a heuristic for thinking about lean AI-first teams, not a rigid org chart.
+        </p>
 
         <div className="space-y-6 mb-8">
           <div className="border-l-2 border-teal-accent pl-4">
