@@ -7,13 +7,9 @@ export default function Home() {
           <a href="#problem" className="hover:text-teal-accent">The Problem</a>
           <a href="#history" className="hover:text-teal-accent">History</a>
           <a href="#trifecta" className="hover:text-teal-accent">The Trifecta</a>
-          <a href="#what" className="hover:text-teal-accent">What an APE Does</a>
+          <a href="#team" className="hover:text-teal-accent">The Team</a>
           <a href="#teams" className="hover:text-teal-accent">Small Teams</a>
-          <a href="#scaling" className="hover:text-teal-accent">Scaling</a>
-          <a href="#model" className="hover:text-teal-accent">The Model</a>
-          <a href="#survive" className="hover:text-teal-accent">Survival</a>
           <a href="#jd" className="hover:text-teal-accent">The JD</a>
-          <a href="#reading" className="hover:text-teal-accent">Reading</a>
           <a href="#hire" className="hover:text-teal-accent">Hire</a>
         </div>
       </nav>
@@ -42,7 +38,7 @@ export default function Home() {
         <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">The Problem</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           Most organisations split product, engineering, and security into separate teams.
-          Each team has its own priorities, its own backlog, its own language. Work moves
+          Each has its own priorities, its own backlog, its own language. Work moves
           between them through handoffs. Handoffs create drag.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
@@ -88,7 +84,7 @@ export default function Home() {
           and compliance. Same pattern. Next iteration.
         </p>
 
-        <ul className="space-y-4 text-gray-700">
+        <ul className="space-y-4 text-gray-700 mb-8">
           <li className="flex gap-3">
             <span className="text-teal-accent font-semibold shrink-0">2008</span>
             <span>&ldquo;DevOps&rdquo; coined. Dev and Ops merge.</span>
@@ -106,6 +102,12 @@ export default function Home() {
             <span>The APE. Product, engineering, and compliance merge.</span>
           </li>
         </ul>
+
+        <blockquote className="border-l-2 border-teal-accent pl-4 my-8 text-gray-600 italic">
+          &ldquo;The era of humans writing code is over. That&apos;s not to say SWEs don&apos;t
+          have work to do, but writing syntax directly is not it.&rdquo;
+          <span className="block mt-2 text-sm not-italic text-gray-400">Ryan Dahl, creator of Node.js</span>
+        </blockquote>
       </section>
 
       {/* The Trifecta */}
@@ -120,21 +122,12 @@ export default function Home() {
           data handling, sensible defaults. External specialists test what gets built, working
           in a tight agile loop rather than a gate at the end.
         </p>
-        <p className="text-gray-700 leading-relaxed mb-4">
+        <p className="text-gray-700 leading-relaxed mb-8">
           This changes the economics. You no longer need three salaries to cover one outcome.
           The budget you free up goes to real security: external pen testing, specialist audits,
           continuous monitoring. Better outcomes for less.
         </p>
-        <blockquote className="border-l-2 border-teal-accent pl-4 my-8 text-gray-600 italic">
-          &ldquo;The era of humans writing code is over. That&apos;s not to say SWEs don&apos;t
-          have work to do, but writing syntax directly is not it.&rdquo;
-          <span className="block mt-2 text-sm not-italic text-gray-400">Ryan Dahl, creator of Node.js</span>
-        </blockquote>
-      </section>
 
-      {/* What an APE Does */}
-      <section id="what" className="mb-24 scroll-mt-20">
-        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">What an APE Does</h2>
         <ul className="space-y-4 text-gray-700">
           <li className="flex gap-3">
             <span className="text-teal-accent font-semibold shrink-0">01</span>
@@ -142,15 +135,15 @@ export default function Home() {
           </li>
           <li className="flex gap-3">
             <span className="text-teal-accent font-semibold shrink-0">02</span>
-            <span><strong>Builds with AI agents.</strong> The APE directs coding agents, review agents, deployment pipelines. They think in systems, not syntax.</span>
+            <span><strong>Builds with AI agents.</strong> Directs coding agents, review agents, deployment pipelines. Thinks in systems, not syntax.</span>
           </li>
           <li className="flex gap-3">
             <span className="text-teal-accent font-semibold shrink-0">03</span>
-            <span><strong>Owns the full lifecycle.</strong> From discovery through build through production. No handoff to another team. One person, one outcome.</span>
+            <span><strong>Owns the full lifecycle.</strong> Discovery through build through production. No handoff to another team. One person, one outcome.</span>
           </li>
           <li className="flex gap-3">
             <span className="text-teal-accent font-semibold shrink-0">04</span>
-            <span><strong>Builds security in.</strong> Auth, data handling, access control. These are not afterthoughts. They are part of the build from day one.</span>
+            <span><strong>Builds security in.</strong> Auth, data handling, access control. Not afterthoughts. Part of the build from day one.</span>
           </li>
           <li className="flex gap-3">
             <span className="text-teal-accent font-semibold shrink-0">05</span>
@@ -163,6 +156,82 @@ export default function Home() {
         </ul>
       </section>
 
+      {/* The Team */}
+      <section id="team" className="mb-24 scroll-mt-20">
+        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">The Team</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          AI removes busywork so humans can do the bits only humans can do. Judgment. Trust.
+          Knowing what matters.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-8">
+          The model has three functions. Not three departments. Three people who trust each
+          other. These are not rigid job titles. The lines blur. One person might be a
+          commercial mind and half an APE. An APE with deep compliance experience might need
+          fewer specialist hours. This is a heuristic for thinking about lean AI-first teams,
+          not an org chart.
+        </p>
+
+        <div className="space-y-6 mb-8">
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The Commercial Mind</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Sales, marketing, client relations, and market sensing. Knows what&apos;s worth
+              building because they know what people will pay for. Sits in pubs and boardrooms.
+              Hears someone say &ldquo;every homeowner in England needs to know this&rdquo; and
+              recognises the product in that sentence. No model can do this. It takes years of
+              lived experience and real relationships. Fractional across multiple ventures,
+              spotting overlap between clients and seeing the market across several bets, not
+              just one.
+            </p>
+          </div>
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The APE</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Product, engineering, and compliance in one seat. Takes &ldquo;this is worth
+              building&rdquo; and makes it exist. Builds a data pipeline for one client.
+              Realises the same pattern works for another. Deploys it in an afternoon instead
+              of a week. The context library grows. Every project makes the next one faster.
+              Lessons from one product harden another. Fractional across multiple products.
+            </p>
+          </div>
+          <div className="border-l-2 border-teal-accent pl-4">
+            <h3 className="font-semibold text-gray-900 mb-1">The Security Specialist</h3>
+            <p className="text-gray-700 leading-relaxed">
+              Fractional by definition. Works across five, ten, twenty small teams. Pen testing
+              for one client Tuesday, vulnerability scanning for another Wednesday. Tests twenty
+              products. Finds the same vulnerability in five of them. Writes one fix pattern,
+              shares it across all five APEs. The whole network gets more secure every time one
+              product gets tested. Their breadth is their value.
+            </p>
+          </div>
+        </div>
+
+        <p className="text-gray-700 leading-relaxed mb-4">
+          A fully functioning product team: one commercial mind, one APE, one fractional
+          security specialist. Two on payroll, one on retainer. Shipping real products to real
+          customers with real security. Compare that to the traditional setup: product manager,
+          three engineers, QA, scrum master, security analyst, DevOps engineer, customer success
+          manager. Nine people doing what three can do now.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Planning permission holds it together. The commercial mind trusts the APE to build it
+          right. The APE trusts the security specialist to find the holes. The security
+          specialist trusts the APE to fix them fast. When there are multiple APEs, they
+          coordinate through lightweight standups and shared standards. Each owns their domain
+          end to end. You split domains, not tasks.
+        </p>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          One APE and one commercial mind is a company. Add a fractional security specialist
+          and it&apos;s a real one. Add a second APE and you&apos;re scaling. Add a third
+          commercial mind working different markets and you&apos;re a portfolio.
+        </p>
+        <p className="text-gray-700 leading-relaxed">
+          This is a network, not a company. Each node is fractional. Each connection creates
+          compound value. No office. No HR department. No org chart. Just people doing what
+          they&apos;re good at across multiple bets, getting better every time.
+        </p>
+      </section>
+
       {/* Why Small Teams */}
       <section id="teams" className="mb-24 scroll-mt-20">
         <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Why Small Teams</h2>
@@ -172,154 +241,21 @@ export default function Home() {
           resists change.
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">
-          Small teams can. A team of two or three APEs can outship a department of twenty.
-          They move faster because there are no handoffs. They build better because they
-          talk to users directly. They spend less because AI agents do the heavy lifting.
+          Small teams can. A team of two or three can outship a department of twenty. They
+          move faster because there are no handoffs. They build better because they talk to
+          users directly. They spend less because AI agents do the heavy lifting.
         </p>
-        <p className="text-gray-700 leading-relaxed">
-          The future belongs to small teams who build this way. Not because small is
-          fashionable, but because the tooling finally makes it possible.
-        </p>
-        <p className="text-gray-700 leading-relaxed mt-4">
+        <p className="text-gray-700 leading-relaxed mb-4">
           This is also why advertised roles rarely fit. Job boards list product managers OR
           engineers OR security analysts. The APE is all three. Most organisations cannot
           hire this person because their org chart has no slot for them. Small teams do not
           have this problem. They hire the person, not the job title.
         </p>
-      </section>
-
-      {/* When There's More Than One */}
-      <section id="scaling" className="mb-24 scroll-mt-20">
-        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">When There&apos;s More Than One</h2>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          One APE is simple. Two or more need planning permission.
-        </p>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          Lightweight standups. Shared standards for code, security, and deployment. A common
-          stack so agents can move between projects. External specialists who test across all
-          output, not per person.
-        </p>
         <p className="text-gray-700 leading-relaxed">
-          The coordination cost stays low because each APE owns their domain end to end.
-          You are not splitting tasks across people. You are splitting domains.
-        </p>
-      </section>
-
-      {/* Three Humans, Not Three Departments */}
-      <section id="model" className="mb-24 scroll-mt-20">
-        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Three Humans, Not Three Departments</h2>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          AI doesn&apos;t replace anyone here. It removes the busywork so humans can do the
-          bits only humans can do. Judgment. Trust. Knowing what matters.
-        </p>
-        <p className="text-gray-700 leading-relaxed mb-8">
-          The model has three roles. Not three departments. Three people who trust each other.
-        </p>
-        <p className="text-gray-700 leading-relaxed mb-8">
-          These are functions, not job titles. The lines blur. One person might be a commercial
-          mind and half an APE. An APE with deep compliance experience might need fewer specialist
-          hours. This is a heuristic for thinking about lean AI-first teams, not a rigid org chart.
-        </p>
-
-        <div className="space-y-6 mb-8">
-          <div className="border-l-2 border-teal-accent pl-4">
-            <h3 className="font-semibold text-gray-900 mb-1">The Commercial Mind</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Sales, marketing, client relations. Knows what&apos;s worth building because they
-              know what people will pay for. The human who turns market intuition into direction.
-            </p>
-          </div>
-          <div className="border-l-2 border-teal-accent pl-4">
-            <h3 className="font-semibold text-gray-900 mb-1">The APE</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Product, engineering, compliance. Takes &ldquo;this is worth building&rdquo; and
-              makes it exist. The execution engine.
-            </p>
-          </div>
-          <div className="border-l-2 border-teal-accent pl-4">
-            <h3 className="font-semibold text-gray-900 mb-1">The Security Specialist</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Fractional. Tests what the APE builds across multiple teams. The external check
-              that keeps everyone honest.
-            </p>
-          </div>
-        </div>
-
-        <p className="text-gray-700 leading-relaxed mb-8">
-          A fully functioning product team: one commercial mind, one APE, one fractional security
-          specialist. Two people on payroll, one on retainer. Shipping real products to real
-          customers with real security. Compare that to the traditional setup: product manager,
-          three engineers, QA, scrum master, security analyst, DevOps engineer, customer success
-          manager. Nine people doing what three can do now.
-        </p>
-
-        <p className="text-gray-700 leading-relaxed mb-4">
-          This is why planning permission works. It&apos;s not a process. It&apos;s trust
-          between humans. The commercial mind trusts the APE to build it right. The APE trusts
-          the security specialist to find the holes. The security specialist trusts the APE to
-          fix them fast.
-        </p>
-        <p className="text-gray-700 leading-relaxed">
-          No tickets. No sprint planning. No change advisory boards. Just humans who are good
-          at their thing, talking to each other.
-        </p>
-      </section>
-
-      {/* Three Roles That Survive */}
-      <section id="survive" className="mb-24 scroll-mt-20">
-        <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Three Roles That Survive</h2>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          Most job titles are descriptions of busywork that AI will absorb. These three
-          survive because they depend on things AI cannot do. Judgment. Trust. Relationships.
-          Knowing what matters to a real person with a real budget.
-        </p>
-        <p className="text-gray-700 leading-relaxed mb-8">
-          And none of them are full time for one company.
-        </p>
-
-        <div className="space-y-6 mb-8">
-          <div className="border-l-2 border-teal-accent pl-4">
-            <h3 className="font-semibold text-gray-900 mb-1">The Commercial Mind</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Fractional across multiple ventures. Spots overlap between clients. Sees the
-              market across several bets, not just one. &ldquo;Client A needs energy data.
-              Client B needs property data. There&apos;s a product in the overlap.&rdquo;
-              This is pattern recognition across markets. No model can do it. It requires
-              years of lived experience, real relationships, and being in the room.
-            </p>
-          </div>
-          <div className="border-l-2 border-teal-accent pl-4">
-            <h3 className="font-semibold text-gray-900 mb-1">The APE</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Fractional across multiple products. Builds a data pipeline for one client.
-              Realises the same pattern works for another. Deploys it in an afternoon instead
-              of a week. Every project makes the next one faster. The context library grows.
-              Lessons from one product harden another.
-            </p>
-          </div>
-          <div className="border-l-2 border-teal-accent pl-4">
-            <h3 className="font-semibold text-gray-900 mb-1">The Security Specialist</h3>
-            <p className="text-gray-700 leading-relaxed">
-              Already fractional by definition. Tests twenty products. Finds the same
-              vulnerability in five of them. Writes one fix pattern, shares it across all
-              five APEs. The whole network gets more secure every time one product gets tested.
-            </p>
-          </div>
-        </div>
-
-        <p className="text-gray-700 leading-relaxed mb-4">
-          This is a network, not a company. Each node is fractional. Each connection creates
-          compound value. The more nodes, the more returns.
-        </p>
-        <p className="text-gray-700 leading-relaxed mb-4">
-          One APE and one commercial mind is a company. Add a fractional security specialist
-          and it&apos;s a real one. Add a second APE and you&apos;re scaling. Add a third
-          commercial mind working different markets and you&apos;re a portfolio.
-        </p>
-        <p className="text-gray-700 leading-relaxed">
-          No office. No HR department. No org chart. Just people doing what they&apos;re good
-          at across multiple bets, getting better every time. This is what &ldquo;millions of
-          platforms with one user each&rdquo; looks like in practice.
+          Most job titles are descriptions of busywork that AI will absorb. The commercial
+          mind, the APE, and the security specialist survive because they depend on things
+          AI cannot do. Judgment. Trust. Relationships. Knowing what matters to a real person
+          with a real budget.
         </p>
       </section>
 
@@ -366,31 +302,35 @@ export default function Home() {
       </section>
 
       {/* Reading */}
-      <section id="reading" className="mb-24 scroll-mt-20">
+      <section className="mb-24">
         <h2 className="font-serif text-2xl sm:text-3xl font-semibold mb-6">Reading</h2>
         <div className="space-y-4">
-          <a
-            href="https://willpalmer.co.uk/unlocking-capability"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-teal-accent hover:underline"
-          >
-            Unlocking Capability
-          </a>
-          <p className="text-gray-600 text-sm leading-relaxed mb-2">
-            Why the capability is democratised but the governance isn&apos;t. The planning permission metaphor for AI-assisted work.
-          </p>
-          <a
-            href="https://willpalmer.co.uk/post-product-playbook"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-teal-accent hover:underline"
-          >
-            The Post-Product Playbook
-          </a>
-          <p className="text-gray-600 text-sm leading-relaxed mb-2">
-            The sceptic&apos;s pitch. What happens when AI builds and humans secure. Written for the person who thinks this can&apos;t work.
-          </p>
+          <div>
+            <a
+              href="https://willpalmer.co.uk/unlocking-capability"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-accent hover:underline"
+            >
+              Unlocking Capability
+            </a>
+            <p className="text-gray-600 text-sm leading-relaxed mt-1">
+              Why the capability is democratised but the governance isn&apos;t. The planning permission metaphor for AI-assisted work.
+            </p>
+          </div>
+          <div>
+            <a
+              href="https://willpalmer.co.uk/post-product-playbook"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-teal-accent hover:underline"
+            >
+              The Post-Product Playbook
+            </a>
+            <p className="text-gray-600 text-sm leading-relaxed mt-1">
+              The sceptic&apos;s pitch. What happens when AI builds and humans secure. Written for the person who thinks this can&apos;t work.
+            </p>
+          </div>
         </div>
       </section>
 
